@@ -1,4 +1,4 @@
-package kr.or.dgit.jdbc_pool_study.service;
+package kr.or.dgit.jdbc_pool_dbcp.service;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -12,8 +12,9 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import kr.or.dgit.jdbc_pool_study.domain.Title;
-import kr.or.dgit.jdbc_pool_study.jdbc.DBCPInit;
+import kr.or.dgit.jdbc_pool_dbcp.domain.Title;
+import kr.or.dgit.jdbc_pool_dbcp.jdbc.DBCPInit;
+import kr.or.dgit.jdbc_pool_dbcp.service.TitleService;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TitleServiceTest {

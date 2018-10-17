@@ -1,4 +1,4 @@
-package kr.or.dgit.jdbc_pool_study;
+package kr.or.dgit.jdbc_pool_dbcp;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,8 +15,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import kr.or.dgit.jdbc_pool_study.jdbc.ConnectionProvider;
-import kr.or.dgit.jdbc_pool_study.jdbc.DBCPInit;
+import kr.or.dgit.jdbc_pool_dbcp.jdbc.ConnectionProvider;
+import kr.or.dgit.jdbc_pool_dbcp.jdbc.DBCPInit;
 
 public class DBCPInitTest {
 	static final Logger log = LogManager.getLogger();

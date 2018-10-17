@@ -1,9 +1,9 @@
-package kr.or.dgit.jdbc_pool_study.service;
+package kr.or.dgit.jdbc_pool_dbcp.service;
 
 import java.util.List;
 
-import kr.or.dgit.jdbc_pool_study.domain.Title;
-import kr.or.dgit.jdbc_pool_study.persistence.TitleDaoImpl;
+import kr.or.dgit.jdbc_pool_dbcp.domain.Title;
+import kr.or.dgit.jdbc_pool_dbcp.persistence.TitleDaoImpl;
 
 public class TitleService {
 

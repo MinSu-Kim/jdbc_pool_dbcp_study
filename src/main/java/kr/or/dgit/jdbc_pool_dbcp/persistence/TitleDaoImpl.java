@@ -1,4 +1,4 @@
-package kr.or.dgit.jdbc_pool_study.persistence;
+package kr.or.dgit.jdbc_pool_dbcp.persistence;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import kr.or.dgit.jdbc_pool_study.domain.Title;
-import kr.or.dgit.jdbc_pool_study.jdbc.ConnectionProvider;
-import kr.or.dgit.jdbc_pool_study.jdbc.JdbcUtil;
+import kr.or.dgit.jdbc_pool_dbcp.domain.Title;
+import kr.or.dgit.jdbc_pool_dbcp.jdbc.ConnectionProvider;
+import kr.or.dgit.jdbc_pool_dbcp.jdbc.JdbcUtil;
 
 public class TitleDaoImpl implements TitleDao {
 	private static final TitleDaoImpl instance = new TitleDaoImpl();

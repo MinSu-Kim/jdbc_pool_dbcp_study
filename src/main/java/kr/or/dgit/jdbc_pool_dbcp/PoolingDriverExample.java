@@ -1,4 +1,4 @@
-package kr.or.dgit.jdbc_pool_study;
+package kr.or.dgit.jdbc_pool_dbcp;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

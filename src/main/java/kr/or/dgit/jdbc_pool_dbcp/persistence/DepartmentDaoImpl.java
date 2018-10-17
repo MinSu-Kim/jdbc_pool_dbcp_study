@@ -1,4 +1,4 @@
-package kr.or.dgit.jdbc_pool_study.persistence;
+package kr.or.dgit.jdbc_pool_dbcp.persistence;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import kr.or.dgit.jdbc_pool_study.domain.Department;
-import kr.or.dgit.jdbc_pool_study.jdbc.ConnectionProvider;
+import kr.or.dgit.jdbc_pool_dbcp.domain.Department;
+import kr.or.dgit.jdbc_pool_dbcp.jdbc.ConnectionProvider;
 
 public class DepartmentDaoImpl implements DepartmentDao {
 	private static final DepartmentDaoImpl instance = new DepartmentDaoImpl();

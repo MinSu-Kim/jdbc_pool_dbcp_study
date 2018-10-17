@@ -1,8 +1,8 @@
-package kr.or.dgit.jdbc_pool_study.persistence;
+package kr.or.dgit.jdbc_pool_dbcp.persistence;
 
 import java.util.List;
 
-import kr.or.dgit.jdbc_pool_study.domain.Title;
+import kr.or.dgit.jdbc_pool_dbcp.domain.Title;
 
 public interface TitleDao {
 	List<Title> selectTitleByAll();

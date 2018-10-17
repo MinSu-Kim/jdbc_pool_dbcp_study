@@ -1,4 +1,4 @@
-package kr.or.dgit.jdbc_pool_study.service;
+package kr.or.dgit.jdbc_pool_dbcp.service;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -10,8 +10,9 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import kr.or.dgit.jdbc_pool_study.domain.Department;
-import kr.or.dgit.jdbc_pool_study.jdbc.DBCPInit;
+import kr.or.dgit.jdbc_pool_dbcp.domain.Department;
+import kr.or.dgit.jdbc_pool_dbcp.jdbc.DBCPInit;
+import kr.or.dgit.jdbc_pool_dbcp.service.DepartmentService;
 
 public class DepartmentServiceTest {
 	static final Logger log = LogManager.getLogger();
