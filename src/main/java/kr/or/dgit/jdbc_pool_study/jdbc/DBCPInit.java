@@ -21,7 +21,7 @@ public class DBCPInit {
 	private PoolingDriver driver;
 
 	public DBCPInit() {
-		loadProperties("DBCon.props");
+		loadProperties("db.properties");
 		initConnectionPool();
 		registerConnectionPool();
 	}

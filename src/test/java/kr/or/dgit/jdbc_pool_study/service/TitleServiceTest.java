@@ -55,7 +55,7 @@ public class TitleServiceTest {
 	
 	@Test
 	public void testRegisterTitle() throws SQLException {
-		Title insertTitle = new Title("T002", "부장");
+		Title insertTitle = new Title("T005", "인턴");
 		int res = service.registTitle(insertTitle);
 		log.trace("result : " + res);
 		Assert.assertEquals(1, res);
@@ -63,7 +63,7 @@ public class TitleServiceTest {
 	
 	@Test
 	public void testUnRegisterTitle() throws SQLException {
-		int res = service.unRegisterTitle("T002");
+		int res = service.unRegisterTitle("T005");
 		log.trace("result : " + res);
 		Assert.assertEquals(1, res);
 	}
